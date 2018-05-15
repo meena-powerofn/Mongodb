@@ -1,6 +1,7 @@
 ##Install Mongodb-3.6##
 
 UNAME=$(uname | tr "[:upper:]" "[:lower:]")
+
 echo '\033[0;32m'$UNAME
 
 echo '\033[0;31m'"Mongodb Installation 3.6 started"'\033[0m' 
@@ -11,12 +12,9 @@ echo "deb http://repo.mongodb.org/apt/debian jessie/mongodb-org/3.6 main" | sudo
 
 sudo apt-get update -y &&
 
-sudo apt-get install -y mongodb-org=3.6.4 mongodb-org-server=3.6.4 mongodb-org-shell=3.6.4 mongodb-org-mongos=3.6.4 mongodb-org-tools=3.6.4  &&
+sudo apt-get install -y mongodb-org=3.6.4 mongodb-org-server=3.6.4 mongodb-org-shell=3.6.4 mongodb-org-mongos=3.6.4 mongodb-org-tools=3.6.4
 
-sudo service mongod start &&
-
-sudo systemctl enable mongod &&
-
+sudo service mongod start  &&
 
 echo '\033[0;32m'"Installation Completed"'\033[0m'
 
