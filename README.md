@@ -4,13 +4,11 @@
 
 ```
 sh setup.sh
-
 ```
 ## SSL for Mongodb
 
 ```
 sh ssl.sh
-
 ```
 
 
