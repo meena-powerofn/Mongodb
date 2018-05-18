@@ -2,8 +2,8 @@
 
 ## New Instance Setup
 
-`sh setup.sh`
-
-
+`sh setup.sh
+`
+## 
 
 
