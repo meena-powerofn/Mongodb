@@ -2,13 +2,10 @@
 
 ## New Instance Setup
 
-```
-sh setup.sh
+```sh setup.sh
 ```
 ## SSL for Mongodb
 
+```sh ssl.sh
 ```
-sh ssl.sh
-```
-
-
+:+1: 

@@ -9,3 +9,7 @@ tmux new-session -d -s mongo1
 tmux send-keys 'sudo mongod --config /etc/mongod.conf --sslMode requireSSL --sslPEMKeyFile /etc/ssl/mongodb.pem' C-m 
 #tmux detach -d mongo 
 echo "Mongo started"
+
+
+
+#mongo --host 35.200.225.170 --ssl --sslCAFile /etc/ssl/mongodb.pem
