@@ -13,3 +13,4 @@ echo "Mongo started"
 
 
 #mongo --host 35.200.225.170 --ssl --sslCAFile /etc/ssl/mongodb.pem
+#mongo --host 35.200.139.28 -u "admin" -p "6CKRdB7GWVZdBV69" --authenticationDatabase "admin" --ssl --sslCAFile /etc/ssl/mongodb.pem 
